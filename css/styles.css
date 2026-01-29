@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* ヘッダー */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.site-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-nav {
+    display: flex;
+    gap: 10px;
+}
+
+.header-nav button {
+    padding: 8px 20px;
+    font-size: 14px;
+    border: 1px solid #999;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.header-nav button:hover {
+    background-color: #f0f0f0;
+}
+
+/* メインコンテンツ */
+main {
+    padding: 30px;
+}
+
+.section-title {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* デッキ一覧グリッド */
+.deck-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+/* デッキカード */
+.deck-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+}
+
+.deck-card:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.deck-card-header {
+    background-color: #666;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.deck-card-thumbnail {
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    color: #666;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.deck-card-thumbnail img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 1200px) {
+    .deck-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    .deck-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .deck-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .site-title {
+        font-size: 20px;
+    }
+}
