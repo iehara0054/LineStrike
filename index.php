@@ -11,7 +11,7 @@
         <h1 class="site-title">ラインストライク デッキビルダー</h1>
         <nav class="header-nav">
             <button type="button">デッキ登録</button>
-            <button type="button">ログイン</button>
+            <a href="login/login.php" class="nav-button">ログイン</a>
             <button type="button">サインアップ</button>
         </nav>
     </header>
@@ -100,5 +100,9 @@
             </div>
         </div>
     </main>
+
+    <footer>
+        <p>&copy; 2025 ラインストライク デッキビルダー</p>
+    </footer>
 </body>
 </html>

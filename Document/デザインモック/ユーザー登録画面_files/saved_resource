@@ -1,0 +1,43 @@
+
+var ftGUID_8129078="65311B2D30E508";
+var ftConfID_8129078="0";
+var ftParams_8129078="ft_custom=efX8FAyH-xZi9v5lCe7_YAqC5h169_4JdvPzEXr28x0J-_MXDR88RzM=&ftOBA=1&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fgyazo.com%2F4aaa235abcc987df74d20b57687e4607&gdpr=0&ftClick=https://exch.quantserve.com/r?&a=p-1RYxePXT9bCS2&labels=_qc.clk,_click.adserver.rtb,_click.rand.138293278&rtbip=103.229.8.152&rtbdata2=EAM6EWh0dHBzOi8vZ3lhem8uY29tWihVUUx1MVFZSnNkVktEdTNWQTF5bDBBTUo2ZE5LRGJyUlZBbUg1RXdRgAGe4PhBugEkNUMyNEMyMzMtNEFBQy00MjcxLTk0OTgtMzc5MURDM0ZFQjE1wAHAqQfIAey0077AM9oBJTY2NzBDRDAyLTU1QUYtNERFQS05NTQ1LTkwODU1NTg5Rjg4M0KwAgjIAgDQAs7hhvv4n_fMqQHoAokB8gIOCIkBEN3Ppdm1yv_hgAHyAg8IneMmEN_QpMzW76_M3wH4AgCKAwYxNTYwODCYAwCoAwCyAwR6Z21sugMSCWlHRMu1QCPxEfdijb6lCI2dwgMSCa1H3P5ZvnDAEUgORxmjMgKTyAPhgMCCAdgDnuD4QeIDD3AtMVJZeGVQWFQ5YkNTMuoDBQjYBRBa8gMIODExLTEzNTH4AwCABOI0igQCNzeaBBIJaEvp9DRgpSIRl9IbueLAp5KiBBIJaUdEy7VAI_ER92KNvqUIjZ2qBBIJaUdEy7VAI_ER92KNvqUIjZ24BNAF0AQO8gQCSlCABQGKBSoyMDI4OWZiMzIzMzUyNTUxYmI1OWQ5MGE3Y2RlMGFkNTY2NmMyZGQyMmGQBQGaBRUgKJ-zIzUlUbtZ2Qp83grVZmwt0iqiBSQyeVVoQmZCY0xWZlVVVXhZb1hjNVp0dE9KRktuUnlXN1dsYz24BQDABZ7g-EHIBfySqgTSBQYIBBABGALoBQWaBhQKEgloS-n0NGClIhGX0hu54sCnkqAGAKgG9-vrLrUGZfAPOboGWAoCSlASAjQwGMT2FyIHZnVrdW9rYSoIODExLTEzNTE6IGFydGVyaWElMjBuZXR3b3JrcyUyMGNvcnBvcmF0aW9uWhVnbW8lMjBpbnRlcm5ldCUyMGluYy7JBjwIAGxy7zcQ0AY42AY44gYdX2ZwLmV2ZW50LkVEVSBQYWlkIENvbnZlcnNpb27qBhFodHRwczovL2Fkb2JlLmNvbfEGARAAbHLvNxD4BgGABwCKBxIJrUfc_lm-cMARSA5HGaMyApOwB4rFsgS4B6SZ_QTYBwQ&redirecturl3=&cachebuster=892492.7938323554";
+var ftKeyword_8129078="";
+var ftCustom_8129078="efX8FAyH-xZi9v5lCe7_YAqC5h169_4JdvPzEXr28x0J-_MXDR88RzM=";
+var ftSection_8129078="";
+var ftSegment_8129078="";
+var ftSegmentList_8129078=[];
+var ftRuleMatch_8129078="0";
+var ftTimestamp_8129078="1769657966";
+var ftGeoC2_8129078="jp";
+var ftGeoState_8129078="40";
+var ftGeoCity_8129078="fukuoka";
+var ftISP_8129078="arteria networks corporation";
+var ftSpeed_8129078="broadband";
+var ftConnType_8129078="wifi";
+var ftDMA_8129078="392004";
+var ftLong_8129078="130.41";
+var ftLat_8129078="33.54";
+var ftPostal_8129078="811-1351";
+var ftTimeZone_8129078="+900";
+var ftMobileCarrier_8129078="";
+var ftImp8129078 = {};
+ftImp8129078.privacy = "x";
+ftImp8129078.guidAge = "72";
+ftImp8129078.impID = "148ADD01-B0B4-B242-15F3-376625AB24A6";
+ftImp8129078.duid = "FT:65311B2D30E508";
+
+ftImp8129078.ft_tpplid = "";
+ftImp8129078.ft_c = {};
+ftImp8129078.gdpr = "0";
+ftImp8129078.gdpr_consent = "";
+ftImp8129078.gdpr_pd = "";
+ftImp8129078.oob_consent = "";
+ftImp8129078.gdprStoredConsent = "";
+ftImp8129078.us_privacy = "";
+ftImp8129078.gpc = "";
+
+ftImp8129078.jsAppend = "1";
+var ftCreativeId_8129078 = "5664900";
+(function(){var tag=document.getElementById("ft_servedby_8129078")||function(s){return s[s.length-1]}(document.getElementsByTagName("script")),js=document.createElement("script");js.src="https://ajs-assets.ftstatic.com/ftUtils.js";js.id="ftscript_m8129078";js.setAttribute("name","ftscript_m8129078");tag.parentNode.insertBefore(js,tag)})();window.fTChecker=window.fTChecker||function(id){if(!id)return false;id=""+id;if(window.hasOwnProperty("ftUtils")){window["ft"+id]=Object.assign({},window.ftUtils.common);window["ft"+id].getBannerConfig(id)}else(function(id){window.setTimeout(function(){window.fTChecker(id)},50)})(id)};window.fTChecker("8129078");
+

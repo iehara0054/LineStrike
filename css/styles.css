@@ -16,13 +16,17 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
-    background-color: #fff;
-    border-bottom: 1px solid #ddd;
+    background-color: #1a237e;
+    border-bottom: 3px solid #ff6f00;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .site-title {
     font-size: 24px;
     font-weight: bold;
+    color: #fff;
 }
 
 .header-nav {
@@ -30,17 +34,22 @@ header {
     gap: 10px;
 }
 
-.header-nav button {
+.header-nav button,
+.header-nav .nav-button {
     padding: 8px 20px;
     font-size: 14px;
-    border: 1px solid #999;
-    background-color: #fff;
+    border: none;
+    background-color: #3f51b5;
+    color: #fff;
     cursor: pointer;
     transition: background-color 0.2s;
+    text-decoration: none;
+    display: inline-block;
 }
 
-.header-nav button:hover {
-    background-color: #f0f0f0;
+.header-nav button:hover,
+.header-nav .nav-button:hover {
+    background-color: #ff6f00;
 }
 
 /* メインコンテンツ */
@@ -51,6 +60,8 @@ main {
 .section-title {
     font-size: 16px;
     margin-bottom: 20px;
+    color: #1a237e;
+    font-weight: bold;
 }
 
 /* デッキ一覧グリッド */
@@ -63,17 +74,18 @@ main {
 /* デッキカード */
 .deck-card {
     background-color: #fff;
-    border: 1px solid #ccc;
+    border: 2px solid #3f51b5;
     cursor: pointer;
-    transition: box-shadow 0.2s;
+    transition: box-shadow 0.2s, border-color 0.2s;
 }
 
 .deck-card:hover {
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 12px rgba(63, 81, 181, 0.3);
+    border-color: #ff6f00;
 }
 
 .deck-card-header {
-    background-color: #666;
+    background-color: #3f51b5;
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -87,7 +99,7 @@ main {
     justify-content: center;
     padding: 20px;
     text-align: center;
-    color: #666;
+    color: #3f51b5;
     font-size: 13px;
     line-height: 1.6;
 }
@@ -96,6 +108,160 @@ main {
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
+}
+
+/* フッター */
+footer {
+    background-color: #1a237e;
+    color: #fff;
+    text-align: center;
+    padding: 20px 30px;
+    border-top: 3px solid #ff6f00;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* ログイン画面 */
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.login-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 60px;
+    color: #1a237e;
+}
+
+.login-form {
+    width: 100%;
+    max-width: 500px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    width: 120px;
+    font-size: 14px;
+    flex-shrink: 0;
+    color: #333;
+}
+
+.form-group input {
+    flex: 1;
+    padding: 10px 12px;
+    font-size: 14px;
+    border: 2px solid #3f51b5;
+    background-color: #f5f5f5;
+    outline: none;
+    transition: border-color 0.2s, background-color 0.2s;
+}
+
+.form-group input:focus {
+    border-color: #ff6f00;
+    background-color: #fff;
+}
+
+.form-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 10px;
+    padding-left: 120px;
+}
+
+.login-button {
+    padding: 10px 40px;
+    font-size: 14px;
+    border: none;
+    background-color: #3f51b5;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-bottom: 15px;
+}
+
+.login-button:hover {
+    background-color: #303f9f;
+}
+
+.register-link {
+    font-size: 14px;
+    color: #ff6f00;
+    text-decoration: none;
+}
+
+.register-link:hover {
+    text-decoration: underline;
+    color: #e65100;
+}
+
+/* ユーザー登録画面 */
+.form-subtitle {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.input-wrapper {
+    display: flex;
+    flex: 1;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.input-wrapper input {
+    flex: 1;
+    padding: 10px 12px;
+    font-size: 14px;
+    border: 2px solid #3f51b5;
+    background-color: #f5f5f5;
+    outline: none;
+    transition: border-color 0.2s, background-color 0.2s;
+}
+
+.input-wrapper input:focus {
+    border-color: #ff6f00;
+    background-color: #fff;
+}
+
+.error-messages {
+    min-width: 150px;
+    font-size: 13px;
+}
+
+.error-message {
+    color: #d32f2f;
+    line-height: 1.5;
+}
+
+.form-hint {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 10px;
+    padding-left: 120px;
+}
+
+.form-hint:last-of-type {
+    margin-bottom: 30px;
+}
+
+.signup-actions {
+    align-items: center;
+    padding-left: 0;
 }
 
 /* レスポンシブ対応 */
@@ -123,5 +289,39 @@ main {
 
     .site-title {
         font-size: 20px;
+    }
+
+    /* ログイン画面レスポンシブ */
+    .login-title {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .form-group {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .form-group label {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    .form-actions {
+        padding-left: 0;
+    }
+
+    /* ユーザー登録画面レスポンシブ */
+    .input-wrapper {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .error-messages {
+        min-width: auto;
+    }
+
+    .form-hint {
+        padding-left: 0;
     }
 }
