@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
+    <header>
+        <a href="../index.php" class="site-title">ラインストライク デッキビルダー</a>
+        <h1 class="page-title">登録完了</h1>
+        <nav class="header-nav"></nav>
+    </header>
     <div class="complete-container">
         <p class="complete-message">ユーザー登録が完了しました</p>
         <a href="../index.php" class="complete-button">トップページへ</a>

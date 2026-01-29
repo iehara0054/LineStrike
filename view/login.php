@@ -7,8 +7,13 @@
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
+    <header>
+        <a href="../index.php" class="site-title">ラインストライク デッキビルダー</a>
+        <h1 class="page-title">ログインページ</h1>
+        <nav class="header-nav"></nav>
+    </header>
     <div class="login-container">
-        <h1 class="login-title">ラインストライク デッキビルダー</h1>
+        <h1 class="login-title">ログイン</h1>
 
         <!-- TODO: action属性にPHP処理ファイルを指定する（現在は仮でindex.phpへ遷移） -->
         <form class="login-form" action="../index.php" method="post">

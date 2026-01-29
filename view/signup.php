@@ -7,13 +7,16 @@
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
+    <header>
+        <a href="../index.php" class="site-title">ラインストライク デッキビルダー</a>
+        <h1 class="page-title">ユーザー登録</h1>
+        <nav class="header-nav"></nav>
+    </header>
     <div class="login-container">
-        <h1 class="login-title">ラインストライク デッキビルダー</h1>
+        <h1 class="login-title">ユーザー登録</h1>
 
         <!-- TODO: action属性にPHP処理ファイルを指定する -->
         <form class="login-form" action="" method="post">
-            <h2 class="form-subtitle">ユーザー登録</h2>
-
             <div class="form-group">
                 <label for="login_id">ログインID</label>
                 <div class="input-wrapper">

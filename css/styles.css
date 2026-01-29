@@ -10,8 +10,8 @@ html {
 
 body {
     font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
-    background-color: #f5f5f5;
-    color: #333;
+    background-color: #0d1b2a;
+    color: #fff;
     min-height: 100%;
     display: flex;
     flex-direction: column;
@@ -23,7 +23,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
-    background-color: #1a237e;
+    background-color: #1b2838;
     border-bottom: 3px solid #ff6f00;
     position: sticky;
     top: 0;
@@ -34,6 +34,21 @@ header {
     font-size: 24px;
     font-weight: bold;
     color: #fff;
+    text-decoration: none;
+    flex: 1;
+}
+
+a.site-title:hover {
+    color: #ff6f00;
+}
+
+.page-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    flex-shrink: 0;
 }
 
 .header-nav {
@@ -42,6 +57,7 @@ header {
     gap: 10px;
     align-items: center;
     justify-content: flex-end;
+    flex: 1;
 }
 
 .header-nav button,
@@ -79,7 +95,7 @@ main {
 .section-title {
     font-size: 16px;
     margin-bottom: 20px;
-    color: #1a237e;
+    color: #fff;
     font-weight: bold;
 }
 
@@ -92,14 +108,17 @@ main {
 
 /* デッキカード */
 .deck-card {
-    background-color: #fff;
-    border: 2px solid #3f51b5;
+    background-color: #1b2838;
+    border: 2px solid #2d4a6f;
     cursor: pointer;
     transition: box-shadow 0.2s, border-color 0.2s;
+    text-decoration: none;
+    display: block;
+    color: inherit;
 }
 
 .deck-card:hover {
-    box-shadow: 0 4px 12px rgba(63, 81, 181, 0.3);
+    box-shadow: 0 4px 12px rgba(63, 81, 181, 0.5);
     border-color: #ff6f00;
 }
 
@@ -118,7 +137,7 @@ main {
     justify-content: center;
     padding: 20px;
     text-align: center;
-    color: #3f51b5;
+    color: #8ba4c4;
     font-size: 13px;
     line-height: 1.6;
 }
@@ -131,7 +150,7 @@ main {
 
 /* フッター */
 footer {
-    background-color: #1a237e;
+    background-color: #1b2838;
     color: #fff;
     text-align: center;
     padding: 20px 30px;
@@ -151,14 +170,14 @@ footer p {
     align-items: center;
     justify-content: center;
     padding: 20px;
-    background-color: #fff;
+    background-color: #0d1b2a;
 }
 
 .login-title {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 60px;
-    color: #1a237e;
+    color: #fff;
 }
 
 .login-form {
@@ -176,7 +195,7 @@ footer p {
     width: 120px;
     font-size: 14px;
     flex-shrink: 0;
-    color: #333;
+    color: #8ba4c4;
     padding-top: 10px;
 }
 
@@ -184,15 +203,16 @@ footer p {
     flex: 1;
     padding: 10px 12px;
     font-size: 14px;
-    border: 2px solid #3f51b5;
-    background-color: #f5f5f5;
+    border: 2px solid #2d4a6f;
+    background-color: #1b2838;
+    color: #fff;
     outline: none;
     transition: border-color 0.2s, background-color 0.2s;
 }
 
 .form-group input:focus {
     border-color: #ff6f00;
-    background-color: #fff;
+    background-color: #0d1b2a;
 }
 
 .form-actions {
@@ -237,7 +257,7 @@ footer p {
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 40px;
-    color: #333;
+    color: #8ba4c4;
 }
 
 .input-wrapper {
@@ -251,15 +271,16 @@ footer p {
     width: 100%;
     padding: 10px 12px;
     font-size: 14px;
-    border: 2px solid #3f51b5;
-    background-color: #f5f5f5;
+    border: 2px solid #2d4a6f;
+    background-color: #1b2838;
+    color: #fff;
     outline: none;
     transition: border-color 0.2s, background-color 0.2s;
 }
 
 .input-wrapper input:focus {
     border-color: #ff6f00;
-    background-color: #fff;
+    background-color: #0d1b2a;
 }
 
 .error-messages {
@@ -275,7 +296,7 @@ footer p {
 
 .form-hint {
     font-size: 13px;
-    color: #666;
+    color: #8ba4c4;
     margin-bottom: 10px;
     padding-left: 120px;
 }
@@ -404,8 +425,8 @@ footer p {
 
 .panel-content {
     padding: 15px;
-    background-color: #fff;
-    border: 2px solid #3f51b5;
+    background-color: #1b2838;
+    border: 2px solid #2d4a6f;
     border-top: none;
 }
 
@@ -419,8 +440,9 @@ footer p {
     width: 100%;
     padding: 8px 10px;
     font-size: 13px;
-    border: 2px solid #3f51b5;
-    background-color: #f5f5f5;
+    border: 2px solid #2d4a6f;
+    background-color: #0d1b2a;
+    color: #fff;
     outline: none;
     margin-bottom: 12px;
     transition: border-color 0.2s, background-color 0.2s;
@@ -428,7 +450,7 @@ footer p {
 
 .search-input:focus {
     border-color: #ff6f00;
-    background-color: #fff;
+    background-color: #1b2838;
 }
 
 .element-filter {
@@ -450,15 +472,15 @@ footer p {
 .element-label {
     padding: 5px 8px;
     font-size: 12px;
-    border: 2px solid #ccc;
-    background-color: #f5f5f5;
+    border: 2px solid #2d4a6f;
+    background-color: #0d1b2a;
     transition: all 0.2s;
     white-space: nowrap;
 }
 
 .element-checkbox input:checked + .element-label {
     border-color: #3f51b5;
-    background-color: #e8eaf6;
+    background-color: #1b2838;
 }
 
 .element-fire { color: #d32f2f; }
@@ -468,24 +490,24 @@ footer p {
 .element-light { color: #ff8f00; }
 .element-dark { color: #512da8; }
 
-.element-checkbox input:checked + .element-fire { border-color: #d32f2f; background-color: #ffebee; }
-.element-checkbox input:checked + .element-water { border-color: #1976d2; background-color: #e3f2fd; }
-.element-checkbox input:checked + .element-thunder { border-color: #fbc02d; background-color: #fffde7; }
-.element-checkbox input:checked + .element-wind { border-color: #388e3c; background-color: #e8f5e9; }
-.element-checkbox input:checked + .element-light { border-color: #ff8f00; background-color: #fff3e0; }
-.element-checkbox input:checked + .element-dark { border-color: #512da8; background-color: #ede7f6; }
+.element-checkbox input:checked + .element-fire { border-color: #d32f2f; background-color: rgba(211, 47, 47, 0.2); }
+.element-checkbox input:checked + .element-water { border-color: #1976d2; background-color: rgba(25, 118, 210, 0.2); }
+.element-checkbox input:checked + .element-thunder { border-color: #fbc02d; background-color: rgba(251, 192, 45, 0.2); }
+.element-checkbox input:checked + .element-wind { border-color: #388e3c; background-color: rgba(56, 142, 60, 0.2); }
+.element-checkbox input:checked + .element-light { border-color: #ff8f00; background-color: rgba(255, 143, 0, 0.2); }
+.element-checkbox input:checked + .element-dark { border-color: #512da8; background-color: rgba(81, 45, 168, 0.2); }
 
 /* カードプレビュー */
 .card-preview {
     margin-top: 15px;
-    border: 2px solid #3f51b5;
-    background-color: #fff;
+    border: 2px solid #2d4a6f;
+    background-color: #1b2838;
 }
 
 .preview-image {
     aspect-ratio: 3 / 4;
     overflow: hidden;
-    background-color: #f5f5f5;
+    background-color: #0d1b2a;
 }
 
 .preview-image img {
@@ -510,7 +532,8 @@ footer p {
 /* 中央: カード一覧パネル */
 .card-list-panel {
     flex: 1;
-    background-color: #e0e0e0;
+    background-color: #0d1b2a;
+    border: 2px solid #2d4a6f;
     padding: 15px;
     overflow-y: auto;
 }
@@ -523,15 +546,15 @@ footer p {
 
 .game-card {
     position: relative;
-    background-color: #fff;
-    border: 2px solid #3f51b5;
+    background-color: #1b2838;
+    border: 2px solid #2d4a6f;
     cursor: pointer;
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .game-card:hover {
     transform: translateY(-3px);
-    box-shadow: 0 4px 12px rgba(63, 81, 181, 0.3);
+    box-shadow: 0 4px 12px rgba(63, 81, 181, 0.5);
     border-color: #ff6f00;
 }
 
@@ -578,8 +601,9 @@ footer p {
     min-width: 100px;
     padding: 5px 8px;
     font-size: 13px;
-    border: 1px solid #fff;
-    background-color: #fff;
+    border: 1px solid #2d4a6f;
+    background-color: #0d1b2a;
+    color: #fff;
     outline: none;
 }
 
@@ -598,7 +622,7 @@ footer p {
     justify-content: space-between;
     align-items: center;
     padding: 10px 0;
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: 1px solid #2d4a6f;
     font-size: 14px;
 }
 
@@ -607,11 +631,11 @@ footer p {
 }
 
 .slot-name {
-    color: #333;
+    color: #fff;
 }
 
 .slot-count {
-    color: #666;
+    color: #8ba4c4;
     font-size: 13px;
 }
 
@@ -663,13 +687,13 @@ footer p {
     align-items: center;
     justify-content: center;
     padding: 20px;
-    background-color: #fff;
+    background-color: #0d1b2a;
 }
 
 .complete-message {
     font-size: 20px;
     font-weight: bold;
-    color: #333;
+    color: #fff;
     margin-bottom: 30px;
 }
 
@@ -703,7 +727,7 @@ footer p {
 .mypage-main {
     flex: 1;
     padding: 30px;
-    background-color: #fff;
+    background-color: #0d1b2a;
     overflow-y: auto;
 }
 
@@ -714,18 +738,18 @@ footer p {
 }
 
 .mypage-deck-card {
-    background-color: #c0c0c0;
-    border: 1px solid #999;
+    background-color: #1b2838;
+    border: 2px solid #2d4a6f;
 }
 
 .mypage-deck-header {
-    background-color: #c0c0c0;
+    background-color: #3f51b5;
     padding: 15px;
     text-align: center;
     font-size: 14px;
     font-weight: bold;
-    color: #333;
-    border-bottom: 1px solid #999;
+    color: #fff;
+    border-bottom: none;
 }
 
 .mypage-deck-actions {
@@ -741,15 +765,16 @@ footer p {
     font-size: 14px;
     text-align: center;
     text-decoration: none;
-    border: 1px solid #333;
-    background-color: #fff;
-    color: #333;
+    border: 2px solid #2d4a6f;
+    background-color: #0d1b2a;
+    color: #fff;
     cursor: pointer;
-    transition: background-color 0.2s;
+    transition: all 0.2s;
 }
 
 .mypage-deck-button:hover {
-    background-color: #e0e0e0;
+    background-color: #ff6f00;
+    border-color: #ff6f00;
 }
 
 /* マイページレスポンシブ */
@@ -768,5 +793,298 @@ footer p {
 @media (max-width: 600px) {
     .mypage-deck-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* ================================================
+   デッキ詳細画面
+   ================================================ */
+
+.deck-main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+}
+
+/* タブナビゲーション */
+.deck-tabs {
+    display: flex;
+    gap: 5px;
+}
+
+.deck-tab {
+    padding: 10px 25px;
+    font-size: 14px;
+    border: none;
+    background-color: #3f51b5;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.deck-tab:hover {
+    background-color: #ff6f00;
+    color: #fff;
+}
+
+/* ユーザー名リンク */
+a.user-name {
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+a.user-name:hover {
+    background-color: #ff6f00;
+}
+
+/* コンテンツラッパー */
+.deck-content-wrapper {
+    display: flex;
+    gap: 20px;
+    flex: 1;
+}
+
+/* デッキ編成エリア */
+.deck-formation-area {
+    flex: 1;
+    background-color: #1b2838;
+    border: 2px solid #2d4a6f;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.deck-name-section {
+    margin-bottom: 10px;
+}
+
+.deck-title-input {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #3f51b5;
+    background-color: #0d1b2a;
+    color: #fff;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.deck-title-input:focus {
+    border-color: #ff6f00;
+}
+
+.deck-info-section {
+    margin-bottom: 15px;
+}
+
+.deck-detail-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0 0 8px 0;
+}
+
+.deck-creator {
+    font-size: 14px;
+    color: #8ba4c4;
+    margin: 0;
+}
+
+/* 5x3 編成グリッド */
+.formation-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    max-width: 600px;
+}
+
+/* 編成スロット */
+.formation-slot {
+    aspect-ratio: 3 / 4;
+    background-color: #0d1b2a;
+    border: 2px solid #2d4a6f;
+    cursor: pointer;
+    transition: all 0.2s;
+    position: relative;
+}
+
+.formation-slot:hover {
+    border-color: #3f51b5;
+}
+
+.formation-slot.selected {
+    border-color: #ff6f00;
+    box-shadow: 0 0 10px rgba(255, 111, 0, 0.5);
+}
+
+.formation-slot.empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slot-placeholder {
+    font-size: 32px;
+    color: #2d4a6f;
+}
+
+/* スロット内カード */
+.slot-card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.slot-card-image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.slot-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slot-card-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+    padding: 5px;
+}
+
+.slot-card-rarity {
+    font-size: 10px;
+    color: #ffc107;
+}
+
+/* コメントセクション（カードエリア内） */
+.comment-section {
+    margin-top: 10px;
+}
+
+.comment-label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #8ba4c4;
+    margin-bottom: 8px;
+}
+
+.comment-textarea {
+    width: 100%;
+    min-height: 80px;
+    padding: 10px;
+    font-size: 14px;
+    font-family: inherit;
+    border: 2px solid #2d4a6f;
+    background-color: #0d1b2a;
+    color: #fff;
+    resize: vertical;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.comment-textarea:focus {
+    border-color: #ff6f00;
+}
+
+.comment-textarea::placeholder {
+    color: #5a7a9e;
+}
+
+/* カード拡大表示パネル */
+.card-preview-panel {
+    width: 300px;
+    flex-shrink: 0;
+    background-color: #1b2838;
+    border: 2px solid #2d4a6f;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-preview-header {
+    background-color: #3f51b5;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-preview-content {
+    padding: 15px;
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.card-preview-image {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    border: 2px solid #2d4a6f;
+    overflow: hidden;
+}
+
+.card-preview-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* デッキ画面レスポンシブ */
+@media (max-width: 1000px) {
+    .deck-content-wrapper {
+        flex-direction: column;
+    }
+
+    .card-preview-panel {
+        width: 100%;
+    }
+
+    .card-preview-content {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .formation-grid {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 8px;
+    }
+
+    .formation-slot {
+        width: auto;
+    }
+
+    .deck-tabs {
+        flex-wrap: wrap;
+    }
+
+    .deck-tab {
+        flex: 1;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .formation-grid {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 5px;
+        max-width: 100%;
+    }
+
+    .formation-slot {
+        width: auto;
     }
 }

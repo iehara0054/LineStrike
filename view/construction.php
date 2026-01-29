@@ -8,9 +8,9 @@
 </head>
 <body>
     <header>
-        <h1 class="site-title">ラインストライク デッキビルダー</h1>
+        <a href="../index.php" class="site-title">ラインストライク デッキビルダー</a>
         <nav class="header-nav">
-            <a href="../index.php" class="nav-button">トップ</a>
+            <a href="../index.php" class="nav-button">一覧</a>
             <a href="login.php" class="nav-button">ログイン</a>
         </nav>
     </header>

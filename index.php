@@ -8,7 +8,8 @@
 </head>
 <body>
     <header>
-        <h1 class="site-title">ラインストライク デッキビルダー</h1>
+        <a href="index.php" class="site-title">ラインストライク デッキビルダー</a>
+        <h1 class="page-title">トップページ</h1>
         <nav class="header-nav">
             <a href="view/construction.php" class="nav-button">デッキ登録</a>
 <!-- TODO: ログイン状態によってボタンの表示を切り替える -->
@@ -21,246 +22,247 @@
 
     <main>
         <h2 class="section-title">デッキ一覧</h2>
+        <!-- TODO: 各デッキカードのリンクにデッキIDをパラメータとして渡す（例: deck.php?id=デッキID） -->
         <div class="deck-grid">
             <!-- デッキカード 1 -->
-            <div class="deck-card">
+            <a href="view/deck.php" class="deck-card">
                 <div class="deck-card-header">デッキ名</div>
                 <div class="deck-card-thumbnail">
                     デッキの最初の<br>一枚を表示する
                 </div>
-            </div>
+            </a>
 
             <!-- デッキカード 2 -->
-            <div class="deck-card">
+            <a href="view/deck.php" class="deck-card">
                 <div class="deck-card-header">デッキ名</div>
                 <div class="deck-card-thumbnail">
                     デッキの最初の<br>一枚を表示する
                 </div>
-            </div>
+            </a>
 
             <!-- デッキカード 3 -->
-            <div class="deck-card">
+            <a href="view/deck.php" class="deck-card">
                 <div class="deck-card-header">デッキ名</div>
                 <div class="deck-card-thumbnail">
                     デッキの最初の<br>一枚を表示する
                 </div>
-            </div>
+            </a>
 
             <!-- デッキカード 4 -->
-            <div class="deck-card">
+            <a href="view/deck.php" class="deck-card">
                 <div class="deck-card-header">デッキ名</div>
                 <div class="deck-card-thumbnail">
                     デッキの最初の<br>一枚を表示する
                 </div>
-            </div>
+            </a>
 
             <!-- デッキカード 5 -->
-            <div class="deck-card">
+            <a href="view/deck.php" class="deck-card">
                 <div class="deck-card-header">デッキ名</div>
                 <div class="deck-card-thumbnail">
                     デッキの最初の<br>一枚を表示する
                 </div>
-            </div>
+            </a>
 
             <!-- デッキカード 6 -->
-            <div class="deck-card">
+            <a href="view/deck.php" class="deck-card">
                 <div class="deck-card-header">デッキ名</div>
                 <div class="deck-card-thumbnail">
                     デッキの最初の<br>一枚を表示する
                 </div>
-            </div>
+            </a>
 
             <!-- デッキカード 7 -->
-            <div class="deck-card">
+            <a href="view/deck.php" class="deck-card">
                 <div class="deck-card-header">デッキ名</div>
                 <div class="deck-card-thumbnail">
                     デッキの最初の<br>一枚を表示する
                 </div>
-            </div>
+            </a>
 
             <!-- デッキカード 8 -->
-            <div class="deck-card">
+            <a href="view/deck.php" class="deck-card">
                 <div class="deck-card-header">デッキ名</div>
                 <div class="deck-card-thumbnail">
                     デッキの最初の<br>一枚を表示する
                 </div>
-            </div>
+            </a>
 
             <!-- デッキカード 9 -->
-            <div class="deck-card">
+            <a href="view/deck.php" class="deck-card">
                 <div class="deck-card-header">デッキ名</div>
                 <div class="deck-card-thumbnail">
                     デッキの最初の<br>一枚を表示する
                 </div>
-            </div>
+            </a>
 
             <!-- デッキカード 10 -->
-            <div class="deck-card">
+            <a href="view/deck.php" class="deck-card">
                 <div class="deck-card-header">デッキ名</div>
                 <div class="deck-card-thumbnail">
                     デッキの最初の<br>一枚を表示する
                 </div>
-            </div>
+            </a>
 
             <!-- デッキカード 11 -->
-            <div class="deck-card">
+            <a href="view/deck.php" class="deck-card">
                 <div class="deck-card-header">デッキ名</div>
                 <div class="deck-card-thumbnail">
                     デッキの最初の<br>一枚を表示する
                 </div>
-            </div>
+            </a>
 
             <!-- デッキカード 12 -->
-            <div class="deck-card">
+            <a href="view/deck.php" class="deck-card">
                 <div class="deck-card-header">デッキ名</div>
                 <div class="deck-card-thumbnail">
                     デッキの最初の<br>一枚を表示する
                 </div>
-            </div>
+            </a>
 
             <!-- デッキカード 13 -->
-            <div class="deck-card">
+            <a href="view/deck.php" class="deck-card">
                 <div class="deck-card-header">デッキ名</div>
                 <div class="deck-card-thumbnail">
                     デッキの最初の<br>一枚を表示する
                 </div>
-            </div>
+            </a>
 
             <!-- デッキカード 14 -->
-            <div class="deck-card">
+            <a href="view/deck.php" class="deck-card">
                 <div class="deck-card-header">デッキ名</div>
                 <div class="deck-card-thumbnail">
                     デッキの最初の<br>一枚を表示する
                 </div>
-            </div>
+            </a>
 
             <!-- デッキカード 15 -->
-            <div class="deck-card">
+            <a href="view/deck.php" class="deck-card">
                 <div class="deck-card-header">デッキ名</div>
                 <div class="deck-card-thumbnail">
                     デッキの最初の<br>一枚を表示する
                 </div>
-            </div>
+            </a>
 
             <!-- デッキカード 16 -->
-            <div class="deck-card">
+            <a href="view/deck.php" class="deck-card">
                 <div class="deck-card-header">デッキ名</div>
                 <div class="deck-card-thumbnail">
                     デッキの最初の<br>一枚を表示する
                 </div>
-            </div>
+            </a>
 
             <!-- デッキカード 17 -->
-            <div class="deck-card">
+            <a href="view/deck.php" class="deck-card">
                 <div class="deck-card-header">デッキ名</div>
                 <div class="deck-card-thumbnail">
                     デッキの最初の<br>一枚を表示する
                 </div>
-            </div>
+            </a>
 
             <!-- デッキカード 18 -->
-            <div class="deck-card">
+            <a href="view/deck.php" class="deck-card">
                 <div class="deck-card-header">デッキ名</div>
                 <div class="deck-card-thumbnail">
                     デッキの最初の<br>一枚を表示する
                 </div>
-            </div>
+            </a>
 
             <!-- デッキカード 19 -->
-            <div class="deck-card">
+            <a href="view/deck.php" class="deck-card">
                 <div class="deck-card-header">デッキ名</div>
                 <div class="deck-card-thumbnail">
                     デッキの最初の<br>一枚を表示する
                 </div>
-            </div>
+            </a>
 
             <!-- デッキカード 20 -->
-            <div class="deck-card">
+            <a href="view/deck.php" class="deck-card">
                 <div class="deck-card-header">デッキ名</div>
                 <div class="deck-card-thumbnail">
                     デッキの最初の<br>一枚を表示する
                 </div>
-            </div>
+            </a>
 
             <!-- デッキカード 21 -->
-            <div class="deck-card">
+            <a href="view/deck.php" class="deck-card">
                 <div class="deck-card-header">デッキ名</div>
                 <div class="deck-card-thumbnail">
                     デッキの最初の<br>一枚を表示する
                 </div>
-            </div>
+            </a>
 
             <!-- デッキカード 22 -->
-            <div class="deck-card">
+            <a href="view/deck.php" class="deck-card">
                 <div class="deck-card-header">デッキ名</div>
                 <div class="deck-card-thumbnail">
                     デッキの最初の<br>一枚を表示する
                 </div>
-            </div>
+            </a>
 
             <!-- デッキカード 23 -->
-            <div class="deck-card">
+            <a href="view/deck.php" class="deck-card">
                 <div class="deck-card-header">デッキ名</div>
                 <div class="deck-card-thumbnail">
                     デッキの最初の<br>一枚を表示する
                 </div>
-            </div>
+            </a>
 
             <!-- デッキカード 24 -->
-            <div class="deck-card">
+            <a href="view/deck.php" class="deck-card">
                 <div class="deck-card-header">デッキ名</div>
                 <div class="deck-card-thumbnail">
                     デッキの最初の<br>一枚を表示する
                 </div>
-            </div>
+            </a>
 
             <!-- デッキカード 25 -->
-            <div class="deck-card">
+            <a href="view/deck.php" class="deck-card">
                 <div class="deck-card-header">デッキ名</div>
                 <div class="deck-card-thumbnail">
                     デッキの最初の<br>一枚を表示する
                 </div>
-            </div>
+            </a>
 
             <!-- デッキカード 26 -->
-            <div class="deck-card">
+            <a href="view/deck.php" class="deck-card">
                 <div class="deck-card-header">デッキ名</div>
                 <div class="deck-card-thumbnail">
                     デッキの最初の<br>一枚を表示する
                 </div>
-            </div>
+            </a>
 
             <!-- デッキカード 27 -->
-            <div class="deck-card">
+            <a href="view/deck.php" class="deck-card">
                 <div class="deck-card-header">デッキ名</div>
                 <div class="deck-card-thumbnail">
                     デッキの最初の<br>一枚を表示する
                 </div>
-            </div>
+            </a>
 
             <!-- デッキカード 28 -->
-            <div class="deck-card">
+            <a href="view/deck.php" class="deck-card">
                 <div class="deck-card-header">デッキ名</div>
                 <div class="deck-card-thumbnail">
                     デッキの最初の<br>一枚を表示する
                 </div>
-            </div>
+            </a>
 
             <!-- デッキカード 29 -->
-            <div class="deck-card">
+            <a href="view/deck.php" class="deck-card">
                 <div class="deck-card-header">デッキ名</div>
                 <div class="deck-card-thumbnail">
                     デッキの最初の<br>一枚を表示する
                 </div>
-            </div>
+            </a>
 
             <!-- デッキカード 30 -->
-            <div class="deck-card">
+            <a href="view/deck.php" class="deck-card">
                 <div class="deck-card-header">デッキ名</div>
                 <div class="deck-card-thumbnail">
                     デッキの最初の<br>一枚を表示する
                 </div>
-            </div>
+            </a>
         </div>
     </main>
 

@@ -8,12 +8,10 @@
 </head>
 <body>
     <header>
+        <a href="../index.php" class="site-title">ラインストライク デッキビルダー</a>
+        <h1 class="page-title">マイページ</h1>
         <nav class="header-nav">
-            <a href="../index.php" class="nav-button">戻る</a>
-        </nav>
-        <h1 class="site-title">マイページ</h1>
-        <nav class="header-nav">
-            <a href="../index.php" class="nav-button">一覧</a>
+            <a href="../index.php" class="nav-button">一覧へ</a>
             <span class="user-name">ユーザー名</span>
         </nav>
     </header>
