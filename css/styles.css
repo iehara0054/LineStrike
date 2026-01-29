@@ -148,7 +148,7 @@ footer p {
 
 .form-group {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 20px;
 }
 
@@ -157,6 +157,7 @@ footer p {
     font-size: 14px;
     flex-shrink: 0;
     color: #333;
+    padding-top: 10px;
 }
 
 .form-group input {
@@ -222,13 +223,12 @@ footer p {
 .input-wrapper {
     display: flex;
     flex: 1;
-    align-items: flex-start;
-    gap: 15px;
+    flex-direction: column;
+    gap: 5px;
 }
 
 .input-wrapper input {
-    width: 320px;
-    flex-shrink: 0;
+    width: 100%;
     padding: 10px 12px;
     font-size: 14px;
     border: 2px solid #3f51b5;
@@ -263,9 +263,22 @@ footer p {
     margin-bottom: 30px;
 }
 
-.signup-actions {
-    align-items: flex-start;
-    padding-left: 120px;
+.input-wrapper .form-hint {
+    padding-left: 0;
+    margin-bottom: 5px;
+}
+
+.input-wrapper .form-hint:last-of-type {
+    margin-bottom: 5px;
+}
+
+.signup-button-row {
+    margin-bottom: 0;
+}
+
+.signup-button-area {
+    flex: 1;
+    text-align: right;
 }
 
 /* レスポンシブ対応 */
@@ -336,5 +349,278 @@ footer p {
     .signup-actions {
         padding-left: 0;
         align-items: stretch;
+    }
+}
+
+/* ================================================
+   デッキ構築画面
+   ================================================ */
+
+.construction-main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    min-height: calc(100vh - 120px);
+}
+
+/* パネル共通スタイル */
+.panel-header {
+    background-color: #3f51b5;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.panel-content {
+    padding: 15px;
+    background-color: #fff;
+    border: 2px solid #3f51b5;
+    border-top: none;
+}
+
+/* 左側: 検索パネル */
+.search-panel {
+    width: 250px;
+    flex-shrink: 0;
+}
+
+.search-input {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 13px;
+    border: 2px solid #3f51b5;
+    background-color: #f5f5f5;
+    outline: none;
+    margin-bottom: 12px;
+    transition: border-color 0.2s, background-color 0.2s;
+}
+
+.search-input:focus {
+    border-color: #ff6f00;
+    background-color: #fff;
+}
+
+.element-filter {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5px;
+}
+
+.element-checkbox {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.element-checkbox input {
+    display: none;
+}
+
+.element-label {
+    padding: 5px 8px;
+    font-size: 12px;
+    border: 2px solid #ccc;
+    background-color: #f5f5f5;
+    transition: all 0.2s;
+    white-space: nowrap;
+}
+
+.element-checkbox input:checked + .element-label {
+    border-color: #3f51b5;
+    background-color: #e8eaf6;
+}
+
+.element-fire { color: #d32f2f; }
+.element-water { color: #1976d2; }
+.element-thunder { color: #fbc02d; }
+.element-wind { color: #388e3c; }
+.element-light { color: #ff8f00; }
+.element-dark { color: #512da8; }
+
+.element-checkbox input:checked + .element-fire { border-color: #d32f2f; background-color: #ffebee; }
+.element-checkbox input:checked + .element-water { border-color: #1976d2; background-color: #e3f2fd; }
+.element-checkbox input:checked + .element-thunder { border-color: #fbc02d; background-color: #fffde7; }
+.element-checkbox input:checked + .element-wind { border-color: #388e3c; background-color: #e8f5e9; }
+.element-checkbox input:checked + .element-light { border-color: #ff8f00; background-color: #fff3e0; }
+.element-checkbox input:checked + .element-dark { border-color: #512da8; background-color: #ede7f6; }
+
+/* カードプレビュー */
+.card-preview {
+    margin-top: 15px;
+    border: 2px solid #3f51b5;
+    background-color: #fff;
+}
+
+.preview-image {
+    aspect-ratio: 3 / 4;
+    overflow: hidden;
+    background-color: #f5f5f5;
+}
+
+.preview-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.preview-info {
+    padding: 10px;
+    background-color: #3f51b5;
+}
+
+.preview-name {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+/* 中央: カード一覧パネル */
+.card-list-panel {
+    flex: 1;
+    background-color: #e0e0e0;
+    padding: 15px;
+    overflow-y: auto;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 15px;
+}
+
+.game-card {
+    position: relative;
+    background-color: #fff;
+    border: 2px solid #3f51b5;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.game-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(63, 81, 181, 0.3);
+    border-color: #ff6f00;
+}
+
+.card-cost {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 28px;
+    height: 28px;
+    background-color: #d32f2f;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.card-image {
+    aspect-ratio: 3 / 4;
+    overflow: hidden;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 右側: デッキパネル */
+.deck-panel {
+    width: 200px;
+    flex-shrink: 0;
+}
+
+.deck-panel .panel-header {
+    flex-wrap: wrap;
+}
+
+.deck-name-input {
+    flex: 1;
+    min-width: 100px;
+    padding: 5px 8px;
+    font-size: 13px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    outline: none;
+}
+
+.deck-name-input:focus {
+    border-color: #ff6f00;
+}
+
+.deck-slot-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.deck-slot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 14px;
+}
+
+.deck-slot:last-child {
+    border-bottom: none;
+}
+
+.slot-name {
+    color: #333;
+}
+
+.slot-count {
+    color: #666;
+    font-size: 13px;
+}
+
+.deck-actions {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.save-deck-button {
+    padding: 10px 30px;
+    font-size: 14px;
+    border: none;
+    background-color: #3f51b5;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.save-deck-button:hover {
+    background-color: #ff6f00;
+}
+
+/* 構築画面レスポンシブ */
+@media (max-width: 900px) {
+    .construction-main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search-panel,
+    .deck-panel {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .element-filter {
+        justify-content: center;
     }
 }

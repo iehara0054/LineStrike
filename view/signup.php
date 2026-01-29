@@ -17,27 +17,41 @@
                 <label for="login_id">ログインID</label>
                 <div class="input-wrapper">
                     <input type="text" id="login_id" name="login_id" maxlength="14" required>
+                    <p class="form-hint">ご希望のログインIDを14文字以内で入力してください</p>
                     <div class="error-messages">
                         <span class="error-message">これはエラーメッセージです</span>
                     </div>
                 </div>
             </div>
-            <p class="form-hint">ご希望のログインIDを14文字以内で入力してください</p>
 
             <div class="form-group">
                 <label for="password">パスワード</label>
                 <div class="input-wrapper">
                     <input type="password" id="password" name="password" maxlength="14" required>
+                    <p class="form-hint">ご希望のパスワードを14文字以内で入力してください</p>
+                    <p class="form-hint">パスワードには、大文字アルファベット、数字を必ず使用してください</p>
                     <div class="error-messages">
                         <span class="error-message">これはエラーメッセージです</span>
                     </div>
                 </div>
             </div>
-            <p class="form-hint">ご希望のパスワードを14文字以内で入力してください</p>
-            <p class="form-hint">パスワードには、大文字アルファベット、数字を必ず使用してください</p>
 
-            <div class="form-actions signup-actions">
-                <a href="../index.php" class="login-button">送信</a>
+            <div class="form-group">
+                <label for="password_confirm">確認用パスワード</label>
+                <div class="input-wrapper">
+                    <input type="password" id="password_confirm" name="password_confirm" maxlength="14" required>
+                    <p class="form-hint">確認のためパスワードを再入力してください</p>
+                    <div class="error-messages">
+                        <span class="error-message">これはエラーメッセージです</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group signup-button-row">
+                <label></label>
+                <div class="signup-button-area">
+                    <a href="../index.php" class="login-button">送信</a>
+                </div>
             </div>
         </form>
     </div>
