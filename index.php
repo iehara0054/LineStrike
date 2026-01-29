@@ -100,6 +100,166 @@
                     デッキの最初の<br>一枚を表示する
                 </div>
             </div>
+
+            <!-- デッキカード 11 -->
+            <div class="deck-card">
+                <div class="deck-card-header">デッキ名</div>
+                <div class="deck-card-thumbnail">
+                    デッキの最初の<br>一枚を表示する
+                </div>
+            </div>
+
+            <!-- デッキカード 12 -->
+            <div class="deck-card">
+                <div class="deck-card-header">デッキ名</div>
+                <div class="deck-card-thumbnail">
+                    デッキの最初の<br>一枚を表示する
+                </div>
+            </div>
+
+            <!-- デッキカード 13 -->
+            <div class="deck-card">
+                <div class="deck-card-header">デッキ名</div>
+                <div class="deck-card-thumbnail">
+                    デッキの最初の<br>一枚を表示する
+                </div>
+            </div>
+
+            <!-- デッキカード 14 -->
+            <div class="deck-card">
+                <div class="deck-card-header">デッキ名</div>
+                <div class="deck-card-thumbnail">
+                    デッキの最初の<br>一枚を表示する
+                </div>
+            </div>
+
+            <!-- デッキカード 15 -->
+            <div class="deck-card">
+                <div class="deck-card-header">デッキ名</div>
+                <div class="deck-card-thumbnail">
+                    デッキの最初の<br>一枚を表示する
+                </div>
+            </div>
+
+            <!-- デッキカード 16 -->
+            <div class="deck-card">
+                <div class="deck-card-header">デッキ名</div>
+                <div class="deck-card-thumbnail">
+                    デッキの最初の<br>一枚を表示する
+                </div>
+            </div>
+
+            <!-- デッキカード 17 -->
+            <div class="deck-card">
+                <div class="deck-card-header">デッキ名</div>
+                <div class="deck-card-thumbnail">
+                    デッキの最初の<br>一枚を表示する
+                </div>
+            </div>
+
+            <!-- デッキカード 18 -->
+            <div class="deck-card">
+                <div class="deck-card-header">デッキ名</div>
+                <div class="deck-card-thumbnail">
+                    デッキの最初の<br>一枚を表示する
+                </div>
+            </div>
+
+            <!-- デッキカード 19 -->
+            <div class="deck-card">
+                <div class="deck-card-header">デッキ名</div>
+                <div class="deck-card-thumbnail">
+                    デッキの最初の<br>一枚を表示する
+                </div>
+            </div>
+
+            <!-- デッキカード 20 -->
+            <div class="deck-card">
+                <div class="deck-card-header">デッキ名</div>
+                <div class="deck-card-thumbnail">
+                    デッキの最初の<br>一枚を表示する
+                </div>
+            </div>
+
+            <!-- デッキカード 21 -->
+            <div class="deck-card">
+                <div class="deck-card-header">デッキ名</div>
+                <div class="deck-card-thumbnail">
+                    デッキの最初の<br>一枚を表示する
+                </div>
+            </div>
+
+            <!-- デッキカード 22 -->
+            <div class="deck-card">
+                <div class="deck-card-header">デッキ名</div>
+                <div class="deck-card-thumbnail">
+                    デッキの最初の<br>一枚を表示する
+                </div>
+            </div>
+
+            <!-- デッキカード 23 -->
+            <div class="deck-card">
+                <div class="deck-card-header">デッキ名</div>
+                <div class="deck-card-thumbnail">
+                    デッキの最初の<br>一枚を表示する
+                </div>
+            </div>
+
+            <!-- デッキカード 24 -->
+            <div class="deck-card">
+                <div class="deck-card-header">デッキ名</div>
+                <div class="deck-card-thumbnail">
+                    デッキの最初の<br>一枚を表示する
+                </div>
+            </div>
+
+            <!-- デッキカード 25 -->
+            <div class="deck-card">
+                <div class="deck-card-header">デッキ名</div>
+                <div class="deck-card-thumbnail">
+                    デッキの最初の<br>一枚を表示する
+                </div>
+            </div>
+
+            <!-- デッキカード 26 -->
+            <div class="deck-card">
+                <div class="deck-card-header">デッキ名</div>
+                <div class="deck-card-thumbnail">
+                    デッキの最初の<br>一枚を表示する
+                </div>
+            </div>
+
+            <!-- デッキカード 27 -->
+            <div class="deck-card">
+                <div class="deck-card-header">デッキ名</div>
+                <div class="deck-card-thumbnail">
+                    デッキの最初の<br>一枚を表示する
+                </div>
+            </div>
+
+            <!-- デッキカード 28 -->
+            <div class="deck-card">
+                <div class="deck-card-header">デッキ名</div>
+                <div class="deck-card-thumbnail">
+                    デッキの最初の<br>一枚を表示する
+                </div>
+            </div>
+
+            <!-- デッキカード 29 -->
+            <div class="deck-card">
+                <div class="deck-card-header">デッキ名</div>
+                <div class="deck-card-thumbnail">
+                    デッキの最初の<br>一枚を表示する
+                </div>
+            </div>
+
+            <!-- デッキカード 30 -->
+            <div class="deck-card">
+                <div class="deck-card-header">デッキ名</div>
+                <div class="deck-card-thumbnail">
+                    デッキの最初の<br>一枚を表示する
+                </div>
+            </div>
         </div>
     </main>
 

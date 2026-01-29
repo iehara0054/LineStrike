@@ -86,8 +86,8 @@ main {
 /* デッキ一覧グリッド */
 .deck-grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 15px;
 }
 
 /* デッキカード */
@@ -303,15 +303,21 @@ footer p {
 }
 
 /* レスポンシブ対応 */
+@media (max-width: 1600px) {
+    .deck-grid {
+        grid-template-columns: repeat(8, 1fr);
+    }
+}
+
 @media (max-width: 1200px) {
     .deck-grid {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(6, 1fr);
     }
 }
 
 @media (max-width: 900px) {
     .deck-grid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 
