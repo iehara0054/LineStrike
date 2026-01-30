@@ -24,7 +24,7 @@
         <!-- TODO: コピーしてマイページに保存ボタンにPHP処理を実装する（デッキをコピーしてマイページに保存） -->
         <!-- TODO: コピーして編集リンクにデッキIDをパラメータとして渡す（例: construction.php?copy_from=デッキID） -->
         <div class="deck-tabs">
-            <button type="button" class="deck-tab active" data-tab="copy">コピーしてマイページに保存</button>
+            <a href="construction.php" class="deck-tab active">コピーしてマイページに保存</a>
             <a href="construction.php" class="deck-tab">コピーして編集</a>
         </div>
 

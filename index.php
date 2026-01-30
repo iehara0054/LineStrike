@@ -12,7 +12,7 @@
         <h1 class="page-title">みんなのデッキ閲覧</h1>
         <nav class="header-nav">
             <a href="view/construction.php" class="nav-button">デッキ登録</a>
-<!-- TODO: ログイン状態によってボタンの表示を切り替える -->
+            <!-- TODO: ログイン状態によってボタンの表示を切り替える -->
             <a href="view/login.php" class="nav-button">ログイン</a>
             <a href="view/signup.php" class="nav-button">サインアップ</a>
             <a href="view/mypage.php" class="nav-button">マイページ</a>
