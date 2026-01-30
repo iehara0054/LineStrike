@@ -63,62 +63,56 @@
         <!-- 中央: カード一覧 -->
         <section class="card-list-panel">
             <div class="card-grid">
-                <!-- カード1 -->
-                <div class="game-card" data-cost="4">
-                    <span class="card-cost">4</span>
-                    <div class="card-image">
-                        <img src="../images/cards/sample.jpg" alt="カード名">
-                    </div>
-                </div>
-                <!-- カード2 -->
-                <div class="game-card" data-cost="4">
-                    <span class="card-cost">4</span>
-                    <div class="card-image">
-                        <img src="../images/cards/sample.jpg" alt="カード名">
-                    </div>
-                </div>
-                <!-- カード3 -->
-                <div class="game-card" data-cost="4">
-                    <span class="card-cost">4</span>
-                    <div class="card-image">
-                        <img src="../images/cards/sample.jpg" alt="カード名">
-                    </div>
-                </div>
-                <!-- カード4 -->
-                <div class="game-card" data-cost="4">
-                    <span class="card-cost">4</span>
-                    <div class="card-image">
-                        <img src="../images/cards/sample.jpg" alt="カード名">
-                    </div>
-                </div>
-                <!-- カード5 -->
-                <div class="game-card" data-cost="4">
-                    <span class="card-cost">4</span>
-                    <div class="card-image">
-                        <img src="../images/cards/sample.jpg" alt="カード名">
-                    </div>
-                </div>
-                <!-- カード6 -->
-                <div class="game-card" data-cost="4">
-                    <span class="card-cost">4</span>
-                    <div class="card-image">
-                        <img src="../images/cards/sample.jpg" alt="カード名">
-                    </div>
-                </div>
-                <!-- カード7 -->
-                <div class="game-card" data-cost="4">
-                    <span class="card-cost">4</span>
-                    <div class="card-image">
-                        <img src="../images/cards/sample.jpg" alt="カード名">
-                    </div>
-                </div>
-                <!-- カード8 -->
-                <div class="game-card" data-cost="4">
-                    <span class="card-cost">4</span>
-                    <div class="card-image">
-                        <img src="../images/cards/sample.jpg" alt="カード名">
-                    </div>
-                </div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード1"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード2"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード3"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード4"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード5"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード6"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード7"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード8"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード9"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード10"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード11"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード12"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード13"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード14"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード15"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード16"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード17"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード18"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード19"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード20"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード21"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード22"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード23"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード24"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード25"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード26"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード27"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード28"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード29"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード30"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード31"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード32"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード33"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード34"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード35"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード36"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード37"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード38"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード39"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード40"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード41"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード42"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード43"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード44"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード45"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード46"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード47"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード48"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード49"></div></div>
+                <div class="game-card"><div class="card-image"><img src="../images/cards/sample.jpg" alt="カード50"></div></div>
             </div>
         </section>
 
