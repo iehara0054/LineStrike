@@ -26,11 +26,10 @@
 
     <main class="index-main">
         <div class="index-header">
-            <div class="site-description">
-                このサイトはPSO2内カードゲーム・ラインストライクのデッキ構築/他者のデッキ閲覧を補助するサイトです。<br>
-                デッキの閲覧、登録、編集が可能です。
+            <div class="section-header-row">
+                <h2 class="section-title">みんなのデッキ一覧</h2>
+                <p class="section-hint">下記デッキをクリックすると内容を閲覧できます</p>
             </div>
-            <h2 class="section-title">みんなのデッキ一覧</h2>
         </div>
         <!-- TODO: 各デッキカードのリンクにデッキIDをパラメータとして渡す（例: deck.php?id=デッキID） -->
         <div class="deck-grid-wrapper">
@@ -279,7 +278,10 @@
     </main>
 
     <footer>
-        <p>&copy; 2025 ラインストライク デッキビルダー</p>
+        <p class="footer-description">
+            このサイトはPSO2内カードゲーム・ラインストライクのデッキ構築/他者のデッキ閲覧を補助するサイトです。デッキの閲覧、登録、編集が可能です。
+        </p>
+        <p class="footer-copyright">&copy; 2025 ラインストライク デッキビルダー</p>
     </footer>
 </body>
 </html>
