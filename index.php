@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ラインストライク デッキビルダー</title>
-    <link rel="icon" href="img/ngs_linestrike_icon.png" type="image/png">
+    <!-- TODO: ファビコンを追加する -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="fixed-layout page-index">
     <header>
         <a href="index.php" class="site-title">ラインストライク デッキビルダー</a>
+        <div class="admin-links">
+            <a href="view/admin_users.php" class="admin-link">管理者：ユーザー</a>
+            <a href="view/admin_decks.php" class="admin-link">管理者：デッキ</a>
+        </div>
         <nav class="header-nav">
             <a href="view/construction.php" class="nav-button">新規デッキ登録</a>
             <!-- TODO: ログイン状態によってボタンの表示を切り替える -->
