@@ -289,6 +289,7 @@ a.site-title:hover {
 
 .admin-links {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     margin-left: auto;
 }
@@ -305,6 +306,13 @@ a.site-title:hover {
 
 .admin-link:hover {
     background-color: #d32f2f;
+}
+
+.admin-note {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0;
+    width: 100%;
 }
 
 /* メインコンテンツ */
@@ -363,6 +371,7 @@ main {
     margin: 0;
     padding: 8px 16px;
     background-color: rgba(26, 74, 110, 0.1);
+    font-weight: normal;
     border-left: 3px solid #1a4a6e;
     font-weight: bold;
 }

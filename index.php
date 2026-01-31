@@ -11,15 +11,15 @@
     <header>
         <a href="index.php" class="site-title">ラインストライク デッキビルダー</a>
         <div class="admin-links">
-            <a href="view/admin_users.php" class="admin-link">管理者：ユーザー</a>
-            <a href="view/admin_decks.php" class="admin-link">管理者：デッキ</a>
+            <a href="view/admin_users.php" class="admin-link">管理者ページへ</a>
+            <p class="admin-note">作成途中のために、常時表示しています</p>
         </div>
         <nav class="header-nav">
             <a href="view/construction.php" class="nav-button">新規デッキ登録</a>
             <!-- TODO: ログイン状態によってボタンの表示を切り替える -->
             <a href="view/login.php" class="nav-button">ログイン</a>
             <a href="view/signup.php" class="nav-button">サインアップ</a>
-            <a href="view/mypage.php" class="nav-button">マイページ</a>
+            <a href="view/mypage.php" class="nav-button">マイデッキ保管庫</a>
             <p class="nav-note">※ログイン後はログイン、サインアップボタンが消えてマイページボタンだけになります</p>
         </nav>
     </header>

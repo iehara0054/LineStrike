@@ -12,8 +12,8 @@
         <a href="../index.php" class="site-title">ラインストライク デッキビルダー</a>
         <h1 class="page-title">編集ページ</h1>
         <nav class="header-nav">
-            <a href="../index.php" class="nav-button">みんなのデッキ閲覧</a>
-            <a href="mypage.php" class="nav-button">マイページ</a>
+            <a href="../index.php" class="nav-button">トップページ</a>
+            <a href="mypage.php" class="nav-button">マイデッキ保管庫</a>
         </nav>
     </header>
 
