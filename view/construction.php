@@ -126,63 +126,123 @@
                 <ul class="deck-slot-list">
                     <li class="deck-slot">
                         <span class="slot-name">カード1</span>
-                        <span class="slot-count">×1</span>
+                        <div class="slot-count-controls">
+                            <button type="button" class="count-btn count-minus">－</button>
+                            <span class="slot-count">1</span>
+                            <button type="button" class="count-btn count-plus">＋</button>
+                        </div>
                     </li>
                     <li class="deck-slot">
                         <span class="slot-name">カード2</span>
-                        <span class="slot-count">×1</span>
+                        <div class="slot-count-controls">
+                            <button type="button" class="count-btn count-minus">－</button>
+                            <span class="slot-count">1</span>
+                            <button type="button" class="count-btn count-plus">＋</button>
+                        </div>
                     </li>
                     <li class="deck-slot">
                         <span class="slot-name">カード3</span>
-                        <span class="slot-count">×1</span>
+                        <div class="slot-count-controls">
+                            <button type="button" class="count-btn count-minus">－</button>
+                            <span class="slot-count">1</span>
+                            <button type="button" class="count-btn count-plus">＋</button>
+                        </div>
                     </li>
                     <li class="deck-slot">
                         <span class="slot-name">カード4</span>
-                        <span class="slot-count">×1</span>
+                        <div class="slot-count-controls">
+                            <button type="button" class="count-btn count-minus">－</button>
+                            <span class="slot-count">1</span>
+                            <button type="button" class="count-btn count-plus">＋</button>
+                        </div>
                     </li>
                     <li class="deck-slot">
                         <span class="slot-name">カード5</span>
-                        <span class="slot-count">×1</span>
+                        <div class="slot-count-controls">
+                            <button type="button" class="count-btn count-minus">－</button>
+                            <span class="slot-count">1</span>
+                            <button type="button" class="count-btn count-plus">＋</button>
+                        </div>
                     </li>
                     <li class="deck-slot">
                         <span class="slot-name">カード6</span>
-                        <span class="slot-count">×1</span>
+                        <div class="slot-count-controls">
+                            <button type="button" class="count-btn count-minus">－</button>
+                            <span class="slot-count">1</span>
+                            <button type="button" class="count-btn count-plus">＋</button>
+                        </div>
                     </li>
                     <li class="deck-slot">
                         <span class="slot-name">カード7</span>
-                        <span class="slot-count">×1</span>
+                        <div class="slot-count-controls">
+                            <button type="button" class="count-btn count-minus">－</button>
+                            <span class="slot-count">1</span>
+                            <button type="button" class="count-btn count-plus">＋</button>
+                        </div>
                     </li>
                     <li class="deck-slot">
                         <span class="slot-name">カード8</span>
-                        <span class="slot-count">×1</span>
+                        <div class="slot-count-controls">
+                            <button type="button" class="count-btn count-minus">－</button>
+                            <span class="slot-count">1</span>
+                            <button type="button" class="count-btn count-plus">＋</button>
+                        </div>
                     </li>
                     <li class="deck-slot">
                         <span class="slot-name">カード9</span>
-                        <span class="slot-count">×1</span>
+                        <div class="slot-count-controls">
+                            <button type="button" class="count-btn count-minus">－</button>
+                            <span class="slot-count">1</span>
+                            <button type="button" class="count-btn count-plus">＋</button>
+                        </div>
                     </li>
                     <li class="deck-slot">
                         <span class="slot-name">カード10</span>
-                        <span class="slot-count">×1</span>
+                        <div class="slot-count-controls">
+                            <button type="button" class="count-btn count-minus">－</button>
+                            <span class="slot-count">1</span>
+                            <button type="button" class="count-btn count-plus">＋</button>
+                        </div>
                     </li>
                     <li class="deck-slot">
                         <span class="slot-name">カード11</span>
-                        <span class="slot-count">×1</span>
+                        <div class="slot-count-controls">
+                            <button type="button" class="count-btn count-minus">－</button>
+                            <span class="slot-count">1</span>
+                            <button type="button" class="count-btn count-plus">＋</button>
+                        </div>
                     </li>
                     <li class="deck-slot">
                         <span class="slot-name">カード12</span>
-                        <span class="slot-count">×1</span>
+                        <div class="slot-count-controls">
+                            <button type="button" class="count-btn count-minus">－</button>
+                            <span class="slot-count">1</span>
+                            <button type="button" class="count-btn count-plus">＋</button>
+                        </div>
                     </li>
                     <li class="deck-slot">
                         <span class="slot-name">カード13</span>
-                        <span class="slot-count">×1</span>
+                        <div class="slot-count-controls">
+                            <button type="button" class="count-btn count-minus">－</button>
+                            <span class="slot-count">1</span>
+                            <button type="button" class="count-btn count-plus">＋</button>
+                        </div>
                     </li>
                     <li class="deck-slot">
                         <span class="slot-name">カード14</span>
-                        <span class="slot-count">×1</span>
+                        <div class="slot-count-controls">
+                            <button type="button" class="count-btn count-minus">－</button>
+                            <span class="slot-count">1</span>
+                            <button type="button" class="count-btn count-plus">＋</button>
+                        </div>
                     </li>
                     <li class="deck-slot">
                         <span class="slot-name">カード15</span>
-                        <span class="slot-count">×1</span>
+                        <div class="slot-count-controls">
+                            <button type="button" class="count-btn count-minus">－</button>
+                            <span class="slot-count">1</span>
+                            <button type="button" class="count-btn count-plus">＋</button>
+                        </div>
                     </li>
                 </ul>
                 <div class="deck-actions">
