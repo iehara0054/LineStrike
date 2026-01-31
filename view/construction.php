@@ -6,7 +6,7 @@
     <title>デッキ構築 - ラインストライク デッキビルダー</title>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
-<body>
+<body class="fixed-layout page-construction">
     <header>
         <a href="../index.php" class="site-title">ラインストライク デッキビルダー</a>
         <h1 class="page-title">編集ページ</h1>

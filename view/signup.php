@@ -6,7 +6,7 @@
     <title>ユーザー登録 - ラインストライク デッキビルダー</title>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
-<body>
+<body class="page-signup">
     <header>
         <a href="../index.php" class="site-title">ラインストライク デッキビルダー</a>
         <h1 class="page-title">ユーザー登録</h1>

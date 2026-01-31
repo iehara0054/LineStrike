@@ -17,6 +17,152 @@ body {
     flex-direction: column;
 }
 
+/* カードエリアのみスクロールするページ用 */
+body.fixed-layout {
+    height: 100%;
+    overflow: hidden;
+}
+
+/* ================================================
+   ページ別テーマカラー
+   ================================================ */
+
+/* トップページ（みんなのデッキ一覧）- ブルー系 */
+.page-index {
+    background: linear-gradient(180deg, #e8f4fc 0%, #f4f8fb 100%);
+}
+.page-index header {
+    background: linear-gradient(90deg, #0d2137 0%, #1a4a6e 100%);
+}
+.page-index .section-title {
+    color: #0d2137;
+    border-left: 4px solid #1a4a6e;
+    padding-left: 10px;
+}
+
+/* デッキ編集ページ - グリーン系 + グリッドパターン */
+.page-construction {
+    background:
+        linear-gradient(90deg, rgba(45, 106, 79, 0.05) 1px, transparent 1px),
+        linear-gradient(rgba(45, 106, 79, 0.05) 1px, transparent 1px),
+        linear-gradient(180deg, #e8f6ed 0%, #f4fbf6 100%);
+    background-size: 20px 20px, 20px 20px, 100% 100%;
+}
+.page-construction header {
+    background: linear-gradient(90deg, #1a3d2e 0%, #2d6a4f 100%);
+}
+.page-construction .panel-header {
+    background: linear-gradient(90deg, #1a3d2e 0%, #2d6a4f 100%);
+}
+.page-construction .nav-button {
+    background-color: #2d6a4f;
+}
+.page-construction .nav-button:hover {
+    background-color: #40916c;
+}
+.page-construction .save-deck-button {
+    background-color: #2d6a4f;
+}
+.page-construction .save-deck-button:hover {
+    background-color: #40916c;
+}
+
+/* デッキ閲覧ページ - パープル系 + ドットパターン */
+.page-deck {
+    background:
+        radial-gradient(circle, rgba(90, 61, 122, 0.08) 1px, transparent 1px),
+        linear-gradient(180deg, #f0e8f6 0%, #f8f4fb 100%);
+    background-size: 15px 15px, 100% 100%;
+}
+.page-deck header {
+    background: linear-gradient(90deg, #2d1b4e 0%, #5a3d7a 100%);
+}
+.page-deck .nav-button {
+    background-color: #5a3d7a;
+}
+.page-deck .nav-button:hover {
+    background-color: #7b52a8;
+}
+.page-deck .deck-tab {
+    background-color: #2d1b4e;
+}
+.page-deck .deck-tab:hover,
+.page-deck .deck-tab.active {
+    background-color: #5a3d7a;
+}
+.page-deck .card-preview-header {
+    background: linear-gradient(90deg, #2d1b4e 0%, #5a3d7a 100%);
+}
+
+/* マイページ - 落ち着いたアンバー系 + 斜めストライプ */
+.page-mypage {
+    background:
+        repeating-linear-gradient(
+            45deg,
+            transparent,
+            transparent 10px,
+            rgba(184, 134, 11, 0.03) 10px,
+            rgba(184, 134, 11, 0.03) 20px
+        ),
+        linear-gradient(180deg, #faf6f0 0%, #fdfcfa 100%);
+}
+.page-mypage header {
+    background: linear-gradient(90deg, #78590a 0%, #a67c00 100%);
+}
+.page-mypage .nav-button {
+    background-color: #b8860b;
+}
+.page-mypage .nav-button:hover {
+    background-color: #d4a017;
+}
+.page-mypage .mypage-deck-header {
+    background: linear-gradient(90deg, #78590a 0%, #a67c00 100%);
+}
+.page-mypage .mypage-deck-button:hover {
+    background-color: #b8860b;
+    border-color: #b8860b;
+}
+
+/* ログインページ - ティール系 */
+.page-login {
+    background: linear-gradient(180deg, #e0f2f1 0%, #f4fafa 100%);
+}
+.page-login header {
+    background: linear-gradient(90deg, #004d40 0%, #00796b 100%);
+}
+.page-login .nav-button {
+    background-color: #00796b;
+}
+.page-login .nav-button:hover {
+    background-color: #009688;
+}
+.page-login .login-button {
+    background-color: #00796b;
+}
+.page-login .login-button:hover {
+    background-color: #009688;
+}
+
+/* サインアップページ - ピンク系 */
+.page-signup {
+    background: linear-gradient(180deg, #fce4ec 0%, #fff8fa 100%);
+}
+.page-signup header {
+    background: linear-gradient(90deg, #4a1942 0%, #880e4f 100%);
+}
+.page-signup .nav-button {
+    background-color: #c2185b;
+}
+.page-signup .nav-button:hover {
+    background-color: #e91e63;
+}
+.page-signup .login-button {
+    background-color: #c2185b;
+}
+.page-signup .login-button:hover {
+    background-color: #e91e63;
+}
+
 /* ヘッダー */
 header {
     display: flex;
@@ -86,10 +232,51 @@ a.site-title:hover {
     text-align: right;
 }
 
+/* ヒーローバナー（トップページ装飾） */
+.hero-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 30px;
+    background: linear-gradient(135deg, #e8f4fc 0%, #d0e8f5 100%);
+    border-bottom: 3px solid #1a4a6e;
+    flex-shrink: 0;
+}
+
+.hero-icon {
+    height: 100px;
+    width: auto;
+    object-fit: contain;
+}
+
+.hero-title {
+    height: 100px;
+    width: auto;
+    object-fit: contain;
+}
+
 /* メインコンテンツ */
 main {
     flex: 1;
     padding: 30px;
+}
+
+/* みんなのデッキ閲覧ページ */
+.index-main {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.index-header {
+    flex-shrink: 0;
+}
+
+.deck-grid-wrapper {
+    flex: 1;
+    overflow-y: auto;
+    min-height: 0;
 }
 
 /* サイト説明文 */
@@ -421,7 +608,9 @@ footer p {
     display: flex;
     gap: 20px;
     padding: 20px;
-    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: hidden;
+    min-width: 0;
 }
 
 /* パネル共通スタイル */
@@ -545,6 +734,7 @@ footer p {
 /* 中央: カード一覧パネル */
 .card-list-panel {
     flex: 1;
+    min-width: 400px;
     min-height: 0;
     background-color: #e8f0f6;
     border: 1px solid #d0dbe5;
@@ -604,6 +794,15 @@ footer p {
 .deck-panel {
     width: 200px;
     flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+}
+
+.deck-panel .panel-content {
+    flex: 1;
+    overflow-y: auto;
+    min-height: 0;
 }
 
 .deck-panel .panel-header {

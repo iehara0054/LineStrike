@@ -6,7 +6,7 @@
     <title>ログイン - ラインストライク デッキビルダー</title>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
-<body>
+<body class="page-login">
     <header>
         <a href="../index.php" class="site-title">ラインストライク デッキビルダー</a>
         <h1 class="page-title">ログインページ</h1>

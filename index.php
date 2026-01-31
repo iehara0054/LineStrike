@@ -6,12 +6,11 @@
     <title>ラインストライク デッキビルダー</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body class="fixed-layout page-index">
     <header>
         <a href="index.php" class="site-title">ラインストライク デッキビルダー</a>
-        <h1 class="page-title">みんなのデッキ閲覧</h1>
         <nav class="header-nav">
-            <a href="view/construction.php" class="nav-button">デッキ登録</a>
+            <a href="view/construction.php" class="nav-button">新規デッキ登録</a>
             <!-- TODO: ログイン状態によってボタンの表示を切り替える -->
             <a href="view/login.php" class="nav-button">ログイン</a>
             <a href="view/signup.php" class="nav-button">サインアップ</a>
@@ -20,14 +19,22 @@
         </nav>
     </header>
 
-    <main>
-        <div class="site-description">
-            このサイトはPSO2内カードゲーム・ラインストライクのデッキ構築/他者のデッキ閲覧を補助するサイトです。<br>
-            デッキの閲覧、登録、編集が可能です。
+    <div class="hero-banner">
+        <img src="img/ngs_linestrike_icon.png" alt="ラインストライク アイコン" class="hero-icon">
+        <img src="img/ngs_title.png" alt="ラインストライク タイトル" class="hero-title">
+    </div>
+
+    <main class="index-main">
+        <div class="index-header">
+            <div class="site-description">
+                このサイトはPSO2内カードゲーム・ラインストライクのデッキ構築/他者のデッキ閲覧を補助するサイトです。<br>
+                デッキの閲覧、登録、編集が可能です。
+            </div>
+            <h2 class="section-title">みんなのデッキ一覧</h2>
         </div>
-        <h2 class="section-title">デッキ一覧</h2>
         <!-- TODO: 各デッキカードのリンクにデッキIDをパラメータとして渡す（例: deck.php?id=デッキID） -->
-        <div class="deck-grid">
+        <div class="deck-grid-wrapper">
+            <div class="deck-grid">
             <!-- デッキカード 1 -->
             <a href="view/deck.php" class="deck-card">
                 <div class="deck-card-header">デッキ名</div>
@@ -267,6 +274,7 @@
                     デッキの最初の<br>一枚を表示する
                 </div>
             </a>
+            </div>
         </div>
     </main>
 
